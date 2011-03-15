@@ -1,0 +1,9 @@
+First uploaded: 3/15/2011
+
+ATdisplay aka "@display"
+
+Description: Python-based twitter-aggregator for creating a digital public message-board. Uses
+
+Requires:
+BeautifulSoup - http://www.crummy.com/software/BeautifulSoup/
+DemJSON - http://deron.meranda.us/python/demjson/

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Edit index.html to change me</title>
+<meta http-equiv="refresh" content="3600" />
+
+<style type="text/css">
+body{
+   font-family:Helvetica,Arial,sans-serif;
+   margin:0px;
+   background-color:#000;
+   color:#fff;
+}
+
+#mainpanel{
+   float:left;
+   height:100%;
+   padding-top:100px;
+   padding-left:20px;
+   padding-right:20px;
+   overflow:none;
+}
+
+#paneltweet{
+   font-size:3.2em;
+   padding-bottom:.6em;
+}
+
+.authorimage{
+   float:left;
+   padding-right:20px;
+}
+
+#panelnames{
+   font-size:2.2em;
+}
+
+#paneldate{
+   color:#999;
+   font-size:1.4em;
+}
+
+.authorimage img{
+  width:75px;
+  height:75px;
+}
+
+#tweetlist{
+   float:right;
+   width:200px;
+   font-size:0.6em;
+   height:100%;
+   background-color:#eeeeee;
+   overflow:scroll;
+}
+
+.inactivetweet{
+   color: #000;
+   padding:8px;
+   margin:0px;
+   border-top:1px solid #000;
+   border-left:1px solid #000;
+}
+
+.activetweet{
+   padding:8px;
+   margin:0px;
+   border-left:1 px solid #fff;
+   border-top:1px solid #000;
+   /* background:#fff; */
+   background:#000;
+   color:#fff;
+   
+}
+
+</style>
+<script src="assets/main.js" type="text/javascript"></script>
+</head>
+
+<body onload="load();" onresize="resizePanel();">
+<div id="tweetlist">
+</div>
+<div id="mainpanel">
+</div>
+</body>
+</html>

@@ -7,3 +7,20 @@ Description: Python-based twitter-aggregator for creating a digital public messa
 Requires:
 BeautifulSoup - http://www.crummy.com/software/BeautifulSoup/
 DemJSON - http://deron.meranda.us/python/demjson/
+
+= Basic install instructions =
+
+(this needs more work for detail, but should be complete)
+
+1) Throw all the files in one directory.
+
+2) Make sure you have the dependencies installed, and if you've done anything fun like install them in a user directory, you may have to edit the file to include the search paths.
+
+3) Make sure your cron user has write access to tweets.pkl
+
+4) Set up a cron job that will trigger sidisplay1.py. For most Twitter accounts, something like: 
+*/1     *	*	*	*	python /home/display/www/sidisplay1.py
+
+should work just fine. You may need to request whitelisting of your Twitter account.
+
+5) update how.html

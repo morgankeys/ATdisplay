@@ -3,13 +3,10 @@
 #!/usr/bin/env python
 import sys
 import config
-
-# If you installed httplib2 and oauth2 system wide (rather than in your home directory),
-# just comment out the next 3 lines
 sys.path.append(config.lib) #see config.py
 sys.path.append(config.oauth) #see config.py
 sys.path.append(config.httplib) #see config.py
-
+#print sys.path
 
 import urllib2, BeautifulSoup, time, datetime, pickle, urllib
 from tweetob import Tweet

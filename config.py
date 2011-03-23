@@ -15,7 +15,8 @@ secret = "CHANGE_ME__OAUTHSECRET"
 consumerKey = "CHANGE_ME__OAUTHCONSUMERKEY"
 consumerSecret = "CHANGE_ME__OAUTHCONSUMERSECRET"
 
-#Set directory paths for your installed resources. 
+#If you were unable to install oauth and httplib2 system wide, 
+#you can set custom paths here.
 lib = '/home/display/lib'
 oauth = '/home/display/lib/oauth2-1.2.1-py2.4.egg'
 httplib = '/home/display/lib/httplib2-0.6.0-py2.4.egg'

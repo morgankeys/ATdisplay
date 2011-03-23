@@ -3,6 +3,8 @@
 #!/usr/bin/env python
 import sys
 import config
+# if you installed httplib2 and oauth2 system-wide (rather than in your home directory),
+# just comment out the next 3 line
 sys.path.append(config.lib) #see config.py
 sys.path.append(config.oauth) #see config.py
 sys.path.append(config.httplib) #see config.py
